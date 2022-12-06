@@ -61,8 +61,6 @@ AC_CONFIG_SRCDIR([include/HsNet.h])
 
 AC_CONFIG_HEADERS([include/HsNetworkConfig.h])
 
-AC_CANONICAL_HOST
-
 AC_ARG_WITH([cc],
             [C compiler],
             [CC=$withval])
